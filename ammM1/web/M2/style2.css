@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-apr-2016, 18.06.48
+    Author     : fede
+*/
+
+body, #tab {
+  background: #003366;
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+#header {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  padding: 5px 0 5px 50px;
+  width: 100%;
+  border-bottom: 2px solid #000099;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0);
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: #969696;
+}
+#tab {
+  display: inline-block;
+  height: auto;
+  min-height: calc( 100% - 40px);
+  width: 100%;
+}
+#insert{
+  align-content: center;
+  margin: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 3px 8px;
+  text-decoration: none; 
+}
+#login{
+  align-content: center;
+  margin: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 3px 8px;
+  text-decoration: none; 
+}
+
+label::after,  label::before
+{
+    content: '\A'; 
+    white-space: pre; 
+}
+
+h1, h2, h3 {
+  margin-left: 10%;
+  color: #C0C0C0;
+}
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+h3{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: auto;
+  color: #C0C0C0;
+}
+.par {
+  display: inline-block;
+  height: auto;
+  min-height: calc( 100% - 40px);
+  width: 100%;
+  margin-left: 10px;
+  color: #DDDDDD;
+}
+.ul{
+  display: inline-block;
+  height: auto;
+  min-height: calc( 100% - 40px);
+  width: 100%;
+  margin-left: 45px;  
+  color: #DDDDDD;
+  list-style-type: square;
+}
+.table {
+  width: 80%;
+  margin: 5px 10%;
+  border-collapse: collapse;
+}
+.table thead {
+  background: #003333;
+  font-family: "Sans-serif", Arial, Verdana;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bolder;
+  text-align: left;
+}
+.table tbody {
+  background: #2B6AA9;
+  font-size: 16px;
+  color: #003333;
+  font-weight: normal;
+  text-align: left;
+}
+.table tbody tr:nth-child(2n) {
+  background: #6A99C7;
+}
+.table tbody tr:hover {
+  background: #FFCC00;
+}
+.table tbody td:nth-child(1) {
+  padding: 0 10px;
+}
+.table tbody td:nth-child(2) img {
+  width: 100px;
+  height: auto;
+  border: 0;
+}
+.table tbody td:nth-child(3), .table tbody td:nth-child(4) {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+.table tbody td:nth-child(5) a {
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  background: #00bb00;
+  color: #FFFFFF;
+  padding: 3px 8px;
+  text-decoration: none;
+  text-align: center;
+}
+.i-button{
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #00bb00;
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-width: 0px;
+  text-decoration: none;
+}
+.nput{
+  width: 255px;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  padding: 5px 0 5px 0;
+  width: 100%;
+  border-top: 2px solid #000099;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+  background: #002366;
+  height: 28px;
+}
+
+a:link
+{
+    color:#FFFFFF;
+}
+
+a:visited
+{
+    color:#646464;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
